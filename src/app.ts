@@ -1,8 +1,6 @@
-import express, { raw, Request, Response } from "express";
+import express, { Request, Response } from "express";
 import bodyParser from "body-parser";
 import uniqid from "uniqid";
-
-console.log(uniqid());
 
 const app = express();
 
